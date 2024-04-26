@@ -7,7 +7,8 @@ public class SumOfNaturalNum {
         for(int i =0; i <=a; i++){
             n=n+i;
         }
-        System.out.println(n);*/
+        System.out.println(n);
+        */
         int k=0;
         int i =a+1;
         k=a*i/2;
@@ -16,6 +17,7 @@ public class SumOfNaturalNum {
 
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the number you would like ti find the sum");
         sumofNum(sc.nextInt());
     }
 }

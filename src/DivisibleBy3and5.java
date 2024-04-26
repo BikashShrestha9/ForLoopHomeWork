@@ -10,6 +10,7 @@ public class DivisibleBy3and5 {
     }
 
     public static void main(String[] args) {
+        System.out.println("Numbers between 1 to 100 that cab be divided by 3 and 5 separately ");
         findDivisibleNum();
     }
 }
